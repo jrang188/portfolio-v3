@@ -86,7 +86,7 @@
       "eslint"
     ],
     "*.nix": [
-      "nix fmt"
+      "statix"
     ]
   },
   "pnpm": {

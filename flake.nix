@@ -14,7 +14,6 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-      foo = "bar";
       forEachSupportedSystem =
         f:
         inputs.nixpkgs.lib.genAttrs supportedSystems (

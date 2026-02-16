@@ -79,11 +79,14 @@
     "viewerjs": "^1.11.7"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx lint-staged && nix fmt"
   },
   "lint-staged": {
     "*": [
       "eslint"
+    ],
+    "*.nix": [
+      "nix fmt"
     ]
   },
   "pnpm": {

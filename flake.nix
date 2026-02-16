@@ -14,6 +14,7 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
+      foo = "bar";
       forEachSupportedSystem =
         f:
         inputs.nixpkgs.lib.genAttrs supportedSystems (
@@ -29,7 +30,7 @@
     {
       overlays.default = final: prev: rec {
         nodejs = prev.nodejs_22;
-        yarn = (prev.yarn.override { inherit nodejs; });
+        yarn = prev.yarn.override { inherit nodejs; };
       };
 
       devShells = forEachSupportedSystem (

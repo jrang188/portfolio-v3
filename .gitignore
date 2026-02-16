@@ -28,3 +28,7 @@ pnpm-debug.log*
 
 # local archive
 .local
+
+# nix
+.result/
+.direnv/

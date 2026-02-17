@@ -1,15 +1,14 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://justinang.com/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
-  description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+  title: 'Justin Ang',
+  description: "Justin Ang's Portfolio & Blogging Site",
+  author: 'Justin Ang',
   lang: 'en',
   ogLocale: 'en_US',
-  imageDomains: ['cdn.bsky.app', 'images.unsplash.com'],
+  imageDomains: [], // If need to add remote image domains (e.g. unsplash ), add here
 }
 
 export const UI: Ui = {

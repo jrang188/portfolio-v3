@@ -25,53 +25,19 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Projects',
     },
-    {
-      path: '/highlights',
-      title: 'Highlights',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Highlights',
-      icon: 'i-ri-screenshot-line',
-    },
-    {
-      path: '/photos',
-      title: 'Photos',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Photos',
-      icon: 'i-ri-camera-ai-line',
-    },
-    {
-      path: '/shorts',
-      title: 'Shorts',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
-      icon: 'i-meteor-icons-grid',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/jrang188',
+      title: 'Justin Ang on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
+      link: 'https://linkedin.com/in/jrang188',
+      title: 'Justin Ang on LinkedIn',
       displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
+      icon: 'i-mdi-linkedin',
     },
   ],
   navBarLayout: {
@@ -87,37 +53,33 @@ export const UI: Ui = {
     ],
     mergeOnMobile: true,
   },
-  tabbedLayoutTabs: [
-    { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
-    { title: 'AstroStreams', path: '/streams' },
-  ],
+  tabbedLayoutTabs: false,
   groupView: {
     maxGroupColumns: 3,
     showGroupItemColorOnHover: true,
   },
   githubView: {
     monorepos: [
-      'withastro/astro',
-      'withastro/starlight',
-      'lin-stephanie/astro-loaders',
+      // 'withastro/astro',
+      // 'withastro/starlight',
+      // 'lin-stephanie/astro-loaders',
     ],
     mainLogoOverrides: [
-      [/starlight/, 'https://starlight.astro.build/favicon.svg'],
+      // [/starlight/, 'https://starlight.astro.build/favicon.svg'],
     ],
     subLogoMatches: [
-      [/theme/, 'i-unjs-theme-colors'],
-      [/github/, 'https://github.githubassets.com/favicons/favicon.svg'],
-      [/tweet/, 'i-logos-twitter'],
-      [/bluesky/, 'i-logos-bluesky'],
+      // [/theme/, 'i-unjs-theme-colors'],
+      // [/github/, 'https://github.githubassets.com/favicons/favicon.svg'],
+      // [/tweet/, 'i-logos-twitter'],
+      // [/bluesky/, 'i-logos-bluesky'],
     ],
   },
   externalLink: {
-    newTab: false,
+    newTab: true,
     cursorType: '',
-    showNewTabIcon: false,
+    showNewTabIcon: true,
   },
-  postMetaStyle: 'minimal',
+  postMetaStyle: 'icon',
 }
 
 /**

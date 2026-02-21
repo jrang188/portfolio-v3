@@ -25,7 +25,12 @@ export const ogImageMarkup = (
 
     <div tw="flex items-center justify-start w-full px-18" style="gap: 36px">
       <div tw="flex justify-center items-center mx-5">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="140" height="140">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 36 36"
+          width="140"
+          height="140"
+        >
           <ellipse cx="18" cy="26" fill="#99AAB5" rx="18" ry="10" />
           <ellipse cx="18" cy="24" fill="#CCD6DD" rx="18" ry="10" />
           <path
